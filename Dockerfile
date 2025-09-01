@@ -20,7 +20,7 @@ RUN npm run build
 FROM node:18-alpine
 
 # 📋 设置标签
-LABEL maintainer="claude-relay-service@example.com"
+LABEL maintainer="claude-image@example.com"
 LABEL description="Claude Code API Relay Service"
 LABEL version="1.0.0"
 
